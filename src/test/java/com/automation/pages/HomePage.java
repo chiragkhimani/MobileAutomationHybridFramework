@@ -6,4 +6,8 @@ public interface HomePage {
         void clickOnHomeBurgerMenu();
 
         void clickOnLogoutLink();
+
+    void clickOnProduct(String productName);
+
+    void clickOnAllItemsLink();
 }

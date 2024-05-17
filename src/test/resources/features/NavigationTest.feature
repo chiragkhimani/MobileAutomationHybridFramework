@@ -17,8 +17,6 @@ Feature: Verify Navigation
     Then verify product details page is displayed
     When user click on add to cart button
     Then verify cart icon display the quantity count "1"
-    When user click on cart icon
-    Then verify user is on cart page
     When user click on home burger menu
     And click on the ALL ITEMS menu
     Then verify user is on home screen

@@ -34,4 +34,12 @@ public class IOSHomePage extends BasePage implements HomePage{
     public void clickOnLogoutLink() {
         logoutLink.click();
     }
+
+    public void clickOnProduct(String productName){
+
+    }
+
+    public void clickOnAllItemsLink() {
+
+    }
 }

@@ -33,4 +33,14 @@ public class HomeSteps {
     public void clickOnLogoutLink() {
         homePage.clickOnLogoutLink();
     }
+
+    @When("user click on the product {string}")
+    public void userClickOnTheProduct(String productName) {
+        homePage.clickOnProduct(productName);
+    }
+
+    @And("click on the ALL ITEMS menu")
+    public void clickOnTheALLITEMSMenu() {
+        homePage.clickOnAllItemsLink();
+    }
 }
